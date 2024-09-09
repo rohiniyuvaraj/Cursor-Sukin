@@ -2,11 +2,10 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { PlusCircle, Image, ThumbsUp, Brain, Pencil, Moon, Bell, Mic } from "lucide-react"
+import { PlusCircle, Image, Brain, Pencil, Moon, Bell, Mic } from "lucide-react"
 
 export function GoalManifestor() {
   const [goal, setGoal] = useState("")
