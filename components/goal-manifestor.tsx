@@ -53,7 +53,7 @@ export function GoalManifestor() {
               <div className="grid grid-cols-3 gap-4 mb-4">
                 {[1, 2, 3, 4, 5, 6].map((i) => (
                   <div key={i} className="aspect-square bg-muted rounded-md flex items-center justify-center">
-                    <Image className="w-8 h-8 text-muted-foreground" aria-hidden="true" />
+                    <Image className="w-8 h-8 text-muted-foreground" aria-hidden="true" aria-label="image" />
                   </div>
                 ))}
               </div>
